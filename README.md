@@ -89,3 +89,22 @@ O aplicativo apresenta uma interface **simples e intuitiva**, seguindo as boas p
 Este projeto foi desenvolvido como parte de um **exercício avaliativo** da disciplina **Dispositivos Móveis 1** sob orientação do **Prof. Ednilson Geraldo Rossi**.
 
 ---
+
+## **Imagens do Projeto**
+**Tela inicial**
+![Foto 1](Imagens/img1.png)
+
+![Foto 2](Imagens/img2.png)
+
+![Foto 3](Imagens/img3.png)
+
+![Foto 4](Imagens/img4.png)
+
+![Foto 5](Imagens/img5.png)
+
+![Foto 6](Imagens/img6.png)
+
+![Foto 7](Imagens/img7.png)
+
+![Foto 8](Imagens/img8.png)
+  
