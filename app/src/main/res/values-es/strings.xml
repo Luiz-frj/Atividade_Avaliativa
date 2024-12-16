@@ -16,6 +16,7 @@
     <string name="ok">Ok</string>
     <string name="valorTitulo">Ingrese un valor</string>
     <string name="valorErro">Error, ingresa un valor válido</string>
+    <string name="btn_saibaMais">Más información</string>
 
     <string name="explicacao_aritimetica">La media aritmética se utiliza para encontrar un valor promedio entre todos los de la lista, se calcula sumando todos los valores y luego dividiendo por su número.</string>
     <string name="explicacao_harmonica">El promedio ponderado se usa para agregar pesos a los valores, para que hagan una mayor diferencia en el promedio final, se usa para calcular puntajes de diferentes pesos, por ejemplo.</string>

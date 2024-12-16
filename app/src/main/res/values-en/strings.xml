@@ -16,6 +16,7 @@
     <string name="ok">Ok</string>
     <string name="valorTitulo">Enter a value</string>
     <string name="valorErro">Error, please enter a valid value</string>
+    <string name="btn_saibaMais">Learn More</string>
 
     <string name="explicacao_aritimetica">The Arithmetic mean is used to find an average value among all in the list, it is calculated by adding all the values and then dividing by their number.</string>
     <string name="explicacao_harmonica">The Weighted average is used to add weights to the values, so they make a greater difference in the final average, it is used to calculate scores of different weights, for example.</string>
