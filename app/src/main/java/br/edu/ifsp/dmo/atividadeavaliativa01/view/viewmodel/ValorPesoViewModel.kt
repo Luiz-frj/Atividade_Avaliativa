@@ -1,6 +1,8 @@
 package br.edu.ifsp.dmo.atividadeavaliativa01.view.viewmodel
 
-class ValorPesoViewModel {
+import androidx.lifecycle.ViewModel
+
+class ValorPesoViewModel : ViewModel() {
     var valores: ArrayList<Double> = ArrayList()
     var pesos: ArrayList<Double> = ArrayList()
 }
