@@ -1,98 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.Activity.MainActivity">
-    <ListView
-        android:id="@+id/listview_values"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginBottom="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/button_coleta"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-
-    <Button
-        android:id="@+id/button_coleta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="35dp"
-        android:text="@string/btn_coleta"
-        app:layout_constraintBottom_toTopOf="@+id/button_aritimetica"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.518"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.846" />
-
-    <Button
-        android:id="@+id/button_pesos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="3dp"
-        android:layout_marginEnd="4dp"
-        android:text="@string/btn_pesos"
-        app:layout_constraintBottom_toTopOf="@+id/button_harmonica"
-        app:layout_constraintEnd_toEndOf="@+id/button_coleta"
-        app:layout_constraintHorizontal_bias="0.285"
-        app:layout_constraintStart_toEndOf="@+id/button_coleta"
-        app:layout_constraintStart_toStartOf="@+id/button_coleta"
-        app:layout_constraintTop_toBottomOf="@+id/button_coleta"
-        app:layout_constraintVertical_bias="0.13" />
-
-    <Button
-        android:id="@+id/button_aritimetica"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/aritimetica"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textview_message"
-        app:layout_constraintVertical_bias="0.698" />
-
-    <Button
-        android:id="@+id/button_ponderada"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/ponderada"
-        app:layout_constraintBottom_toTopOf="@+id/button_harmonica"
-        app:layout_constraintEnd_toEndOf="@+id/button_aritimetica"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button_aritimetica"
-        app:layout_constraintTop_toBottomOf="@+id/button_aritimetica" />
-
-
-    <Button
-        android:id="@+id/button_harmonica"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="2dp"
-        android:text="@string/harmonica"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/button_coleta"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/button_coleta"
-        app:layout_constraintTop_toBottomOf="@+id/button_ponderada" />
+    android:orientation="vertical"
+    tools:context=".view.activity.MainActivity">
 
     <TextView
         android:id="@+id/textview_message"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:text="@string/app_name"
         android:textAlignment="center"
         android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textStyle="bold" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/button_coleta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/btn_coleta" />
+
+        <Button
+            android:id="@+id/button_pesos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/btn_pesos" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_aritimetica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/aritimetica" />
+
+        <Button
+            android:id="@+id/button_ponderada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/ponderada" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_harmonica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/harmonica" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview_values"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
