@@ -1,3 +1,5 @@
+##**OBS: Use o tema claro para melhor visibilidade**
+
 ---
 
 # **Aplicativo de Cálculo de Médias**  
