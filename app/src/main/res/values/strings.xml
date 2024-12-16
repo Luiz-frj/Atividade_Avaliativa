@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Calculo de Médias</string>
+    <string name="coleta">Adicionar Valor</string>
+    <string name="btn_coleta">Informar Valores</string>
+    <string name="btn_pesos">Informar Pesos</string>
+    <string name="aritimetica">Média Aritimetica</string>
+    <string name="ponderada">Média Ponderada</string>
+    <string name="harmonica">Média Harmonica</string>
+    <string name="editarPeso">Editar Peso:</string>
+
+    <string name="confirmar">Confirmar</string>
+    <string name="pesoErro">Erro, Insira um peso valido</string>
+    <string name="cancelar">cancelar</string>
+    <string name="error">Erro</string>
+    <string name="ok">Ok</string>
+    <string name="valorTitulo">Insira um valor</string>
+    <string name="valorErro">Erro, por favor insira um valor valido</string>
+
+    <string name="explicacao_aritimetica">A média Aritimetica serve para achar um valor médio entre todos da lista, ela é calculada somando todos os valores e depois dividindo pela quantidade deles.</string>
+    <string name="explicacao_harmonica">A média Ponderada serve para adicionar pesos aos valores, assim eles fazem maior diferença na média final, serve para calcular notas de diferentes pesos por exemplo.</string>
+    <string name="explicacao_ponderada">"Em um conjunto de valores, para calcular a média harmônica, dividimos a quantidade de elementos pela soma do inverso de cada um dos elementos do conjunto."</string>
+</resources>

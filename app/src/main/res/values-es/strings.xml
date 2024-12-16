@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cálculo promedio</string>
+    <string name="coleta">Agregar valor</string>
+    <string name="btn_coleta">Informar valores</string>
+    <string name="btn_pesos">Informar Pesos</string>
+    <string name="aritimetica">Media aritmética</string>
+    <string name="ponderada">Promedio ponderado</string>
+    <string name="harmonica">Armónica mediana</string>
+    <string name="editarPeso">Editar peso:</string>
+
+    <string name="confirmar">Confirmar</string>
+    <string name="pesoErro">Error, ingrese un peso válido</string>
+    <string name="cancelar">cancelar</string>
+    <string name="error">Error</string>
+    <string name="ok">Ok</string>
+    <string name="valorTitulo">Ingrese un valor</string>
+    <string name="valorErro">Error, ingresa un valor válido</string>
+
+    <string name="explicacao_aritimetica">La media aritmética se utiliza para encontrar un valor promedio entre todos los de la lista, se calcula sumando todos los valores y luego dividiendo por su número.</string>
+    <string name="explicacao_harmonica">El promedio ponderado se usa para agregar pesos a los valores, para que hagan una mayor diferencia en el promedio final, se usa para calcular puntajes de diferentes pesos, por ejemplo.</string>
+    <string name="explicacao_ponderada">"En un conjunto de valores, para calcular la media armónica, dividimos el número de elementos por la suma de la inversa de cada uno de los elementos del conjunto."</string>
+</resources>

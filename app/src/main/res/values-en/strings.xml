@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Average Calculation</string>
+    <string name="coleta">Add Value</string>
+    <string name="btn_coleta">Inform Values</string>
+    <string name="btn_pesos">Inform Weights</string>
+    <string name="aritimetica">Arithmetic Mean</string>
+    <string name="ponderada">Weighted Average</string>
+    <string name="harmonica">Medium Harmonica</string>
+    <string name="editarPeso">Edit Weight:</string>
+
+    <string name="confirmar">Confirm</string>
+    <string name="pesoErro">Error, Please enter a valid weight</string>
+    <string name="cancelar">cancel</string>
+    <string name="error">Error</string>
+    <string name="ok">Ok</string>
+    <string name="valorTitulo">Enter a value</string>
+    <string name="valorErro">Error, please enter a valid value</string>
+
+    <string name="explicacao_aritimetica">The Arithmetic mean is used to find an average value among all in the list, it is calculated by adding all the values and then dividing by their number.</string>
+    <string name="explicacao_harmonica">The Weighted average is used to add weights to the values, so they make a greater difference in the final average, it is used to calculate scores of different weights, for example.</string>
+    <string name="explicacao_ponderada">"In a set of values, to calculate the harmonic mean, we divide the number of elements by the sum of the inverse of each of the elements in the set."</string>
+
+</resources>
