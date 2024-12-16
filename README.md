@@ -1,5 +1,3 @@
-Aqui está a versão final do **README.md** formatado e pronto para uso:
-
 ---
 
 # **Aplicativo de Cálculo de Médias**  
