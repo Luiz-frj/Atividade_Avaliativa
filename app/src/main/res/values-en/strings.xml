@@ -18,8 +18,11 @@
     <string name="valorErro">Error, please enter a valid value</string>
     <string name="btn_saibaMais">Learn More</string>
 
-    <string name="explicacao_aritimetica">The Arithmetic mean is used to find an average value among all in the list, it is calculated by adding all the values and then dividing by their number.</string>
-    <string name="explicacao_harmonica">The Weighted average is used to add weights to the values, so they make a greater difference in the final average, it is used to calculate scores of different weights, for example.</string>
-    <string name="explicacao_ponderada">"In a set of values, to calculate the harmonic mean, we divide the number of elements by the sum of the inverse of each of the elements in the set."</string>
+    <string name="explicacao_aritimetica">The Arithmetic mean is used to find the average value of a list. Just add the values and divide by the number of them.</string>
+
+    <string name="explicacao_harmonica">The Weighted average adds weights to values, making them have a bigger impact on the final average. It is used to calculate scores with different weights.</string>
+
+    <string name="explicacao_ponderada">The Harmonic mean, divide the number of elements by the sum of the inverses of each value.</string>
+
 
 </resources>
